@@ -2,6 +2,7 @@ import pandas as pd
 
 df = pd.read_csv("merged_data.csv")
 
+
 del df["Distance"]
 del df["Mass"]
 del df["Radius"]
